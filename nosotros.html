@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TP 2 de Lógica de Programación</title>
+     <style>body {
+    background-image: url(imagenes/fondo-de-plumas.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#contenedor {
+    background-color: black;
+    padding: 15px 10px;
+    display: inline-block;
+    width: 800px;
+    height: 210px;
+    border-radius: 35px;
+    margin: 5px;
+    overflow: visible;
+    justify-content: center;
+}
+
+header {
+    justify-content: center;
+    padding: 15px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cabecera {
+    height: 5px;
+    margin: -10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    background-image: url(imagenes/logo-l-oro.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    text-indent: -200px;
+    overflow: hidden; 
+    font-size: 0;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+nav ul li {
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 150px;
+    list-style-type: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+nav ul li a {
+    color:aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    font-family: Arial;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+}
+.section {
+    width: 700px;
+    margin: 5px;
+    background-color: rgb(80, 80, 80);
+    padding: 10px 10px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.section h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.section h1  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+p {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#boton {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 169, 39);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+    }
+
+    #boton a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+    }
+
+    #boton p {
+        margin: 0;
+        text-align: center;
+        line-height: 40px;
+    }
+    .palabra{
+    color: azure;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+    <div id="contenedor">
+
+    <header class="cabecera">
+        <h1 id="logo">L'Oro</h1>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="section"> 
+                    <h1>Información de L'Oro</h1>
+        <p>Nos dedicamos, profesionalmente, a la reparación y a la venta de aparatos electrónicos. Estamos en Avenida Corrientes 2037, donde se encuentra nuesto local principal y taller de reparaciones, abierto desde el año 2004.</p>
+        <p>Ofrecemos descuentos en la venta de productos, tanto nuevos como usados, excluyendo los encargos de reparación de aparatos dañados o en malas condiciones.</p>
+        <p>Los trabajos de reparación cuentan con una garantía de seis meses y si usted no quedó satisfecho le reintegraremos el monto abonado.
+        </p>
+        <p>Compramos y vendemos, únicamente, productos electrónicos en buen estado, funcionen o no.</p>
+    </section>
+    <footer>
+        <address class="palabra">Copyright L'Oro</address>
+    </footer>
+        <div id="boton">
+        <p>
+        <a href="index.html">Volver</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
